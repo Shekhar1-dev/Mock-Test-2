@@ -1,0 +1,41 @@
+class Person{
+private String name;
+private int age;
+private String address;
+
+public void setName(String str){
+      this.name=str;
+}
+
+public String getName(){
+    return name;
+}
+
+public void setAge(int x) {
+     this.age=x;
+}
+public int getAge(){
+   return age;
+}
+
+public void setAddress(String str1){
+    this.address=str1;
+}
+
+public String getAddress(){
+     return address;
+}
+}
+
+public class TestPerson{
+public static void main(String[] args){
+Person per=new Person();
+per.setName("Shekhar Dutta");
+per.setAge(25);
+per.setAddress("Grant Tank Road,Ranchi");
+System.out.println("Person Name:- " +per.getName() +"\n"+ "Person Age:- " +per.getAge() 
+                     +"\n"+ "Person Address:- "+ per.getAddress());
+
+}
+}
+
